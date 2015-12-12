@@ -1,0 +1,35 @@
+[user]
+    name = Florian Wilhelm
+
+[include]
+    path = ~/.gitconfig.d/userdetails
+
+[color]
+    ui = auto
+
+[credential]
+    helper = cache --timeout=3600
+
+[push]
+    default = simple
+
+[alias]
+    lg = log --graph --decorate --pretty=oneline --abbrev-commit
+    ls = log --decorate --pretty=oneline --abbrev-commit
+    lss = log -3
+    br = branch
+    ci = commit
+    co = checkout
+    coum = checkout -B master upstream/master
+    fcuml = "!git fetch upstream; git coum; git lss"
+    st = status -s
+    fa = fetch --all
+    cp = cherry-pick
+    uncommit = reset --soft HEAD^
+    unstage = reset HEAD
+
+[branch]
+    autosetuprebase = always
+[push]
+    default = current
+
