@@ -1,4 +1,5 @@
 # dotfiles
+
 My Dotfiles
 
 ## Prerequisites
@@ -9,3 +10,14 @@ My Dotfiles
 
 * `git clone git@github.com:fwilhe/dotfiles.git ~/.dotfiles`
 * `~/.dotfiles/install` (caution! this will override your current dotfiles!)
+
+## Unrelated, but useful software
+
+* [sdkman](http://sdkman.io/) `curl -s http://get.sdkman.io | bash`
+* Java Development Tools
+
+```
+sdk install gradle
+sdk install maven
+```
+

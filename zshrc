@@ -18,3 +18,8 @@ source $ZSH/oh-my-zsh.sh
 [ -f $HOME/.aliases_zsh ] && . $HOME/.aliases_zsh
 [ -f $HOME/.functions ] && . $HOME/.functions
 
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/sputnik/.sdkman"
+[[ -s "/home/sputnik/.sdkman/bin/sdkman-init.sh" ]] && source "/home/sputnik/.sdkman/bin/sdkman-init.sh"
