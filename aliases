@@ -1,0 +1,69 @@
+alias ls='ls --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
+alias ll='ls -l'
+alias la='ls -la'
+alias lh='ls -lah'
+
+# Aliases for package managers, depending on the distro.
+if [ -e "/usr/bin/apt-get" ] ; then # Apt-based distros (Debian, Ubuntu, etc.)
+  alias i='sudo apt-get install'
+  alias up='sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove'
+  alias se='apt-cache search'
+  alias sho='apt-cache show'
+  alias re='sudo apt-get remove'
+elif [ -e "/usr/bin/snappy" ] ; then # Ubuntu snappy
+  alias i='sudo snappy install'
+  alias up='sudo snappy update'
+  alias se='snappy search'
+  alias re='sudo snappy remove'
+elif [ -e "/usr/bin/pacman" ] ; then # Arch Linux
+  alias i='sudo pacman -S'
+  alias up='sudo pacman -Syu'
+  alias se='pacman -Ss'
+  alias re='sudo pacman -Rc'
+elif [ -e "/usr/bin/zypper" ] ; then # suse
+  alias i='sudo zypper install'
+  alias up='sudo zypper update'
+  alias se='zypper search'
+  alias re='sudo zypper remove'
+elif [ -e "/usr/bin/dnf" ] ; then # fedora >= 22
+  alias i='sudo dnf install'
+  alias up='sudo dnf update'
+  alias se='dnf search'
+  alias sho='dnf info'
+  alias re='sudo dnf remove'
+elif [ -e "/usr/bin/yum" ] ; then # redhat
+  alias i='sudo yum install'
+  alias up='sudo yum update'
+  alias se='yum search'
+  alias re='sudo yum remove'
+fi
+
+alias c='LANG=C ' # shortcut to use the C-locale for English output on demand
+
+# Git aliases - based on http://www.catonmat.net/blog/git-aliases/
+alias git='c git' #make git speak english
+alias ga='git add'
+alias gl='git log'
+alias gll='git log --decorate --pretty=oneline --abbrev-commit'
+alias gla='git log --decorate --pretty=oneline --abbrev-commit --graph --all'
+alias gfu='git fetch upstream; git checkout -B master origin/master'
+alias gs='git status'
+alias gd='git diff'
+alias gdw='git diff --color-words'
+alias gdt='git difftool'
+alias gra='git remote add'
+alias gdc='git diff --cached'
+alias gm='git commit'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gcl='git clone'
+
+alias o='xdg-open' # 'open' files from the commandline
+alias n='newsbeuter -r'
+alias hd='od -Ax -tx1z -v' # hexdump
+
+alias g='./gradlew'
+alias purgedocker='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
+

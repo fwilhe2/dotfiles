@@ -1,0 +1,6 @@
+
+# https://github.com/thoughtbot/dotfiles/blob/master/aliases
+alias -g G='| grep'
+alias -g M='| less'
+alias -g L='| wc -l'
+

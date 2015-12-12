@@ -1,0 +1,11 @@
+
+# shorthand for find (with its confusing syntax..)
+f() {
+	find . -iname "*${1}*" 2>/dev/null
+}
+
+# DockerEXecute - get a shell in the given container
+dex() {
+    docker exec -it $1 bash -il
+}
+

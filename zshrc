@@ -14,3 +14,7 @@ plugins=(git github hub autojump mvn gradle command-not-found common-aliases cp 
 
 source $ZSH/oh-my-zsh.sh
 
+[ -f $HOME/.aliases ] && . $HOME/.aliases
+[ -f $HOME/.aliases_zsh ] && . $HOME/.aliases_zsh
+[ -f $HOME/.functions ] && . $HOME/.functions
+
