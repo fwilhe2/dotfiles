@@ -1,0 +1,6 @@
+auto-reload yes
+reload-time 30
+bind-key j down
+bind-key k up
+browser google-chrome
+
