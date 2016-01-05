@@ -38,10 +38,7 @@ elif [ -e "/usr/bin/yum" ] ; then # redhat
   alias re='sudo yum remove'
 fi
 
-alias c='LANG=C ' # shortcut to use the C-locale for English output on demand
-
 # Git aliases - based on http://www.catonmat.net/blog/git-aliases/
-alias git='c git' #make git speak english
 alias ga='git add'
 alias gl='git log'
 alias gll='git log --decorate --pretty=oneline --abbrev-commit'
