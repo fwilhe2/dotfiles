@@ -7,7 +7,7 @@ ln -sf ~/.dotfiles/functions ~/.functions
 ln -sf ~/.dotfiles/vimrc ~/.vimrc
 ln -sf ~/.dotfiles/gitconfig ~/.gitconfig
 
-mkdir -p ~/.config/newsbeuter
-ln -sf ~/.dotfiles/urls ~/.config/newsbeuter/urls
-ln -sf ~/.dotfiles/config ~/.config/newsbeuter/config
+mkdir -p ~/.local/share/newsbeuter
+ln -sf ~/.dotfiles/urls ~/.local/share/newsbeuter/urls
+ln -sf ~/.dotfiles/config ~/.local/share/newsbeuter/config
 
