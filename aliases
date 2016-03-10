@@ -64,3 +64,4 @@ alias hd='od -Ax -tx1z -v' # hexdump
 alias g='./gradlew'
 alias purgedocker='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
+alias v=vagrant
