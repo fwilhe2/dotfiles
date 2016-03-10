@@ -25,6 +25,7 @@
     st = status -s
     fa = fetch --all
     cp = cherry-pick
+    rb = rebase
     uncommit = reset --soft HEAD^
     unstage = reset HEAD
 
