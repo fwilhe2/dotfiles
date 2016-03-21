@@ -39,6 +39,7 @@ elif [ -e "/usr/bin/yum" ] ; then # redhat
 fi
 
 # Git aliases - based on http://www.catonmat.net/blog/git-aliases/
+alias g=git
 alias ga='git add'
 alias gl='git log'
 alias gll='git log --decorate --pretty=oneline --abbrev-commit'
