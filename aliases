@@ -61,7 +61,7 @@ alias o='xdg-open' # 'open' files from the commandline
 alias n='newsbeuter -r'
 alias hd='od -Ax -tx1z -v' # hexdump
 
-alias g='./gradlew'
+alias gw='./gradlew'
 alias purgedocker='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
 alias v=vagrant
