@@ -65,3 +65,6 @@ alias g='./gradlew'
 alias purgedocker='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
 alias v=vagrant
+alias vup='vagrant up'
+alias vssh='vagrant ssh'
+
