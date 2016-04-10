@@ -11,3 +11,6 @@ mkdir -p ~/.local/share/newsbeuter
 ln -sf ~/.dotfiles/urls ~/.local/share/newsbeuter/urls
 ln -sf ~/.dotfiles/config ~/.local/share/newsbeuter/config
 
+mkdir -p ~/.gradle
+ln -sf ~/.dotfiles/gradle.properties ~/.gradle/gradle.properties
+
