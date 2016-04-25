@@ -21,7 +21,7 @@
     ci = commit
     co = checkout
     coum = checkout -B master upstream/master
-    fcuml = "!git fetch upstream; git coum; git lss"
+    fcuml = "!git fetch upstream; git coum; git log"
     st = status -s
     fa = fetch --all
     cp = cherry-pick
