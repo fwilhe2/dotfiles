@@ -16,6 +16,7 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f $HOME/.aliases ] && . $HOME/.aliases
 [ -f $HOME/.aliases_zsh ] && . $HOME/.aliases_zsh
+[ -f $HOME/.aliases_package_manager ] && . $HOME/.aliases_package_manager
 [ -f $HOME/.functions ] && . $HOME/.functions
 
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
