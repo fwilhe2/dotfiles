@@ -1,7 +1,7 @@
 alias ls='ls --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
-alias ll='ls -l'
-alias la='ls -la'
-alias lh='ls -lah'
+alias ll='ls -lh'
+alias la='ls -lah'
+alias lh=la
 
 # Git aliases - based on http://www.catonmat.net/blog/git-aliases/
 alias g=git
