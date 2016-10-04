@@ -37,3 +37,4 @@ alias vssh='vagrant ssh'
 
 alias generatePronounceablePassword='apg -n 1 -a 0 -m 10 -x 10'
 
+alias dcupd='docker-compose up -d'
