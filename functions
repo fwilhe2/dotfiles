@@ -14,3 +14,10 @@ generate-ssh-key() {
     ssh-keygen -o -a 100 -t ed25519 "$@"
 }
 
+# "asciidoctor's vi" - wrapper to edit and build a single .adoc file
+avi() {
+    local filename="$1"
+    vim "$filename"
+    asciidoctor "$filename"
+}
+
