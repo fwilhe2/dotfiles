@@ -1,0 +1,8 @@
+~/no_backup/code/:
+  linux: 'git+https://github.com/torvalds/linux.git'
+  systemd: 'git+https://github.com/systemd/systemd.git'
+~/:
+  .dotfiles: 'git+ssh://git@github.com/fwilhe/dotfiles.git'
+~/software/:
+  blackbox: 'git+https://github.com/StackExchange/blackbox.git'
+

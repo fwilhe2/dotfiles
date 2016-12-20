@@ -6,6 +6,7 @@ ln -sf ~/.dotfiles/aliases_zsh ~/.aliases_zsh
 ln -sf ~/.dotfiles/functions ~/.functions
 ln -sf ~/.dotfiles/vimrc ~/.vimrc
 ln -sf ~/.dotfiles/gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/vcspull.yaml ~/.vcspull.yaml
 
 mkdir -p ~/.local/share/newsbeuter
 ln -sf ~/.dotfiles/urls ~/.local/share/newsbeuter/urls
@@ -13,3 +14,4 @@ ln -sf ~/.dotfiles/config ~/.local/share/newsbeuter/config
 mkdir -p ~/.newsbeuter
 ln -sf ~/.dotfiles/urls ~/.newsbeuter/urls
 ln -sf ~/.dotfiles/config ~/.newsbeuter/config
+
