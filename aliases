@@ -41,3 +41,7 @@ alias dcupd='docker-compose up -d'
 
 alias c='code .' # Open current directory in visual studio code
 
+# From https://www.blockloop.io/mastering-bash-and-terminal
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
