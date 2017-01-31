@@ -26,3 +26,11 @@ avi() {
     asciidoctor "$filename"
 }
 
+# Find a running process named like $1
+# Example:
+#   $ p iterm
+#   shazow            540   5.7  2.1  ... 23:03.17 /opt/homebrew-cask/Caskroom/iterm2-beta/1.0.0.20140629/iTerm.app/Contents/MacOS/iTerm
+# Source: https://github.com/shazow/dotfiles/blob/c6ff559ea92ea5a40100178c457ea7a41db0a4a3/helpers.bash#L32
+p() {
+    ps aux | grep "$*"
+}
