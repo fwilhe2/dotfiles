@@ -1,5 +1,10 @@
 
 # shorthand for find (with its confusing syntax..)
+# Example:
+# $ f alia
+# ./aliases_package_manager
+# ./aliases_zsh
+# ./aliases
 f() {
 	find . -iname "*${1}*" 2>/dev/null
 }
