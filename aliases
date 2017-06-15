@@ -28,7 +28,7 @@ alias n='newsbeuter -r'
 alias hd='od -Ax -tx1z -v' # hexdump
 
 alias gw='./gradlew'
-alias bumpgradle='function _bumpgradle(){./gradlew wrapper --gradle-version=$1};_bumpgradle'
+alias bumpgradle='function _bumpgradle(){./gradlew wrapper --gradle-version=$1 --distribution-type all};_bumpgradle'
 alias purgedocker='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
 alias v=vagrant
