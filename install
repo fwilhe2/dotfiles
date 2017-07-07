@@ -15,3 +15,5 @@ mkdir -p ~/.newsbeuter
 ln -sf ~/.dotfiles/urls ~/.newsbeuter/urls
 ln -sf ~/.dotfiles/config ~/.newsbeuter/config
 
+ln -sf ~/.dotfiles/sqliterc ~/.sqliterc
+
