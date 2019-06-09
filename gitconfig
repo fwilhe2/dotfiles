@@ -39,7 +39,6 @@
 [core]
 	editor = vim
 	excludesfile = ~/.dotfiles/gitignore
-	pager = diff-so-fancy | less --tabs=4 -RFX
 
 [url "git@github.com:"]
     insteadOf = gh:
