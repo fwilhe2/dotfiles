@@ -2,5 +2,6 @@
     "files.autoSave": "afterDelay",
     "editor.renderWhitespace": "boundary",
     "editor.fontSize": 16,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDelete": false
 }

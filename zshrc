@@ -10,7 +10,7 @@ ZSH_THEME="theunraveler"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git github hub autojump mvn gradle command-not-found cp extract gitignore sudo themes systemadmin vagrant docker heroku rsync python pip postgres grunt docker-compose systemd httpie jsontools)
+plugins=(git github autojump mvn gradle command-not-found cp extract gitignore sudo themes systemadmin vagrant docker heroku rsync python pip postgres grunt docker-compose systemd httpie jsontools)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -26,10 +26,9 @@ export VAGRANT_DEFAULT_PROVIDER=virtualbox
 # cf http://nuclearsquid.com/writings/reporttime-in-zsh/
 REPORTTIME=5
 
-eval "$(direnv hook zsh)"
-
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
