@@ -1,6 +1,9 @@
 #!/bin/bash -x
 
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.git-prompt.sh
+
 ln -sf ~/.dotfiles/zshrc ~/.zshrc
+ln -sf ~/.dotfiles/bashrc ~/.bashrc
 ln -sf ~/.dotfiles/aliases ~/.aliases
 ln -sf ~/.dotfiles/aliases_zsh ~/.aliases_zsh
 ln -sf ~/.dotfiles/functions ~/.functions
