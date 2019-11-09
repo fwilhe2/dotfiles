@@ -29,16 +29,19 @@
     uncommit = reset --soft HEAD^
     unstage = reset HEAD
     prune-all-remotes = !git remote | xargs git remote prune
-    mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
 
 [branch]
     autosetuprebase = always
+
 [push]
     default = current
 
 [core]
-	editor = vim
-	excludesfile = ~/.dotfiles/gitignore
+    editor = vim
+    excludesfile = ~/.dotfiles/gitignore
 
 [url "git@github.com:"]
     insteadOf = gh:
+
+[diff]
+    noprefix = true

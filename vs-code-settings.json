@@ -3,5 +3,16 @@
     "editor.renderWhitespace": "boundary",
     "editor.fontSize": 16,
     "files.trimTrailingWhitespace": true,
-    "explorer.confirmDelete": false
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "search.usePCRE2": true,
+    "window.zoomLevel": 1,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
 }

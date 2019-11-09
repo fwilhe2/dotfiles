@@ -32,3 +32,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet
