@@ -1,5 +1,6 @@
 [user]
-    name = Florian Wilhelm
+	name = Florian Wilhelm
+	email = fwilhelm.wgt+github@gmail.com
 
 [include]
     path = ~/.gitconfig.d/userdetails
@@ -8,7 +9,7 @@
     ui = auto
 
 [credential]
-    helper = cache --timeout=3600
+	helper = store
 
 [push]
     default = simple
