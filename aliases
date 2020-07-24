@@ -45,3 +45,34 @@ alias c='code .' # Open current directory in visual studio code
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
+# Aliases for package managers, depending on the distro.
+if [ -e "/usr/bin/apt-get" ] ; then # Apt-based distros (Debian, Ubuntu, etc.)
+    alias i='sudo apt-get install'
+    alias up='sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove'
+    alias se='apt-cache search'
+    alias sho='apt-cache show'
+    alias re='sudo apt-get remove'
+elif [ -e "/usr/bin/pacman" ] ; then # Arch Linux
+    alias i='sudo pacman -S'
+    alias up='sudo pacman -Syu'
+    alias se='pacman -Ss'
+    alias re='sudo pacman -Rc'
+elif [ -e "/usr/bin/zypper" ] ; then # suse
+    alias i='sudo zypper install'
+    alias up='sudo zypper update'
+    alias se='zypper search'
+    alias re='sudo zypper remove'
+elif [ -e "/usr/bin/dnf" ] ; then # fedora >= 22
+    alias i='sudo dnf install'
+    alias I='sudo dnf --assumeyes install'
+    alias up='sudo dnf update'
+    alias se='dnf search'
+    alias sho='dnf info'
+    alias re='sudo dnf remove'
+    alias cl='sudo dnf clean all && sudo dnf autoremove'
+elif [ -e "/usr/bin/yum" ] ; then # redhat
+    alias i='sudo yum install'
+    alias up='sudo yum update'
+    alias se='yum search'
+    alias re='sudo yum remove'
+fi
