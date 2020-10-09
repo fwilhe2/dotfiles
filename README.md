@@ -14,6 +14,6 @@ I recommend to run [system-automation](https://github.com/fwilhe/system-automati
 
 ### Install
 
-* `git clone git@github.com:fwilhe/dotfiles.git ~/.dotfiles`
+* `git clone https://github.com/fwilhe2/dotfiles.git ~/.dotfiles`
 * `~/.dotfiles/install` (caution! this will override your current dotfiles!)
 
