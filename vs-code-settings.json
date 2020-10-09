@@ -14,5 +14,6 @@
         "**/.factorypath": true
     },
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSaveDelay": 100
 }
