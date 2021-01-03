@@ -89,14 +89,15 @@ shopt -s dirspell 2> /dev/null
 # Correct spelling errors in arguments supplied to cd
 shopt -s cdspell 2> /dev/null
 
-# User specific environment
-PATH="$HOME/.local/bin:$HOME/bin:$HOME/software/jdk-15+36/bin:$HOME/software/apache-maven-3.6.3/bin:$HOME/software/gradle-6.6.1/bin:$PATH"
-export PATH
-
 # User specific aliases and functions
 
 if [ -f $HOME/.aliases ]; then
 	. $HOME/.aliases
+fi
+
+
+if [ -f $HOME/.custom-path.sh ]; then
+	. $HOME/.custom-path.sh
 fi
 
 if [ -f $HOME/.git-prompt.sh ]; then
