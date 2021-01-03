@@ -6,6 +6,7 @@ alias lh=la
 # Git aliases - based on http://www.catonmat.net/blog/git-aliases/
 alias g=git
 alias ga='git add'
+alias gp='git push'
 alias gl='git log'
 alias gll='git log --decorate --pretty=oneline --abbrev-commit'
 alias gla='git log --decorate --pretty=oneline --abbrev-commit --graph --all'
