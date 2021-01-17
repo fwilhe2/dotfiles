@@ -19,23 +19,10 @@ source $ZSH/oh-my-zsh.sh
 [ -f $HOME/.aliases_package_manager ] && . $HOME/.aliases_package_manager
 [ -f $HOME/.aliases_local ] && . $HOME/.aliases_local
 [ -f $HOME/.functions ] && . $HOME/.functions
+[ -f $HOME/.custom-path.sh ] && . $HOME/.custom-path.sh
 
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
 # Report CPU usage for commands running longer than 5 seconds
 # cf http://nuclearsquid.com/writings/reporttime-in-zsh/
 REPORTTIME=5
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-export DOTNET_ROOT=$HOME/dotnet
-export PATH=$PATH:$HOME/dotnet
-
-
-if [ -f $HOME/.custom-path.sh ]; then
-    . $HOME/.custom-path.sh
-fi
