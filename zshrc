@@ -34,3 +34,8 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export DOTNET_ROOT=$HOME/dotnet
 export PATH=$PATH:$HOME/dotnet
+
+
+if [ -f $HOME/.custom-path.sh ]; then
+    . $HOME/.custom-path.sh
+fi
