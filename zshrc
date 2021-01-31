@@ -21,6 +21,8 @@ source $ZSH/oh-my-zsh.sh
 [ -f $HOME/.functions ] && . $HOME/.functions
 [ -f $HOME/.custom-path.sh ] && . $HOME/.custom-path.sh
 
+export PATH=$HOME/bin:$PATH
+
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
 # Report CPU usage for commands running longer than 5 seconds
