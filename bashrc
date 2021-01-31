@@ -100,6 +100,8 @@ if [ -f $HOME/.custom-path.sh ]; then
 	. $HOME/.custom-path.sh
 fi
 
+export PATH=$HOME/bin:$PATH
+
 if [ -f $HOME/.git-prompt.sh ]; then
 	. $HOME/.git-prompt.sh
 	export GIT_PS1_SHOWDIRTYSTATE=1
