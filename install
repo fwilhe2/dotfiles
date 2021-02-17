@@ -20,3 +20,5 @@ ln -sf ~/.dotfiles/config ~/.newsbeuter/config
 ln -sf ~/.dotfiles/sqliterc ~/.sqliterc
 
 ln -sf ~/.dotfiles/vs-code-settings.json ~/.config/Code/User/settings.json
+ln -sf ~/.dotfiles/vs-code-settings.json ~/.config/VSCodium/User/settings.json
+

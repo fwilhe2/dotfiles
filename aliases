@@ -40,7 +40,13 @@ alias generatePronounceablePassword='apg -n 1 -a 0 -m 10 -x 10'
 
 alias dcupd='docker-compose up -d'
 
-alias c='code .' # Open current directory in visual studio code
+# Open current directory in code/codium
+if command -v codium > /dev/null
+then
+    alias c='codium .'
+else
+    alias c='code .'
+fi
 
 # From https://www.blockloop.io/mastering-bash-and-terminal
 alias pbcopy='xclip -selection clipboard'
