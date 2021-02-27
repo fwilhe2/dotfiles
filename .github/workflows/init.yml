@@ -12,4 +12,5 @@ jobs:
         path: ".dotfiles"
     - name: Check that we can install the dotfiles
       run: |
+        set -o errexit
         /home/runner/work/dotfiles/dotfiles/.dotfiles/install
