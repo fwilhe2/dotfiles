@@ -15,9 +15,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.autoSaveDelay": 100,
-    "java.configuration.runtimes": [
-    
-    ],
-   "workbench.startupEditor": "newUntitledFile",
+    "java.configuration.runtimes": [],
+    "workbench.startupEditor": "newUntitledFile",
     "python.formatting.provider": "black"
 }
