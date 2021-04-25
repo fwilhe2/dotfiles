@@ -6,7 +6,6 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "search.usePCRE2": true,
-    "window.zoomLevel": 1,
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
@@ -15,5 +14,10 @@
     },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "files.autoSaveDelay": 100
+    "files.autoSaveDelay": 100,
+    "java.configuration.runtimes": [
+    
+    ],
+   "workbench.startupEditor": "newUntitledFile",
+    "python.formatting.provider": "black"
 }
