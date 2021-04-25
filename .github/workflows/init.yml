@@ -13,3 +13,8 @@ jobs:
     - name: Check that we can install the dotfiles
       run: |
         /home/runner/work/dotfiles/dotfiles/.dotfiles/install
+    - name: Check that we can source bashrc
+      run: |
+        source ~/.bashrc
+    - name: Run ShellCheck
+      uses: ludeeus/action-shellcheck@master
