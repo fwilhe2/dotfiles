@@ -80,4 +80,5 @@ if [ -f $HOME/.git-prompt.sh ]; then
 	export GIT_PS1_SHOWDIRTYSTATE=1
 	export PS1='\w$(__git_ps1 " (%s)")\$ '
 fi
-source "$HOME/.cargo/env"
+
+. "$HOME/.cargo/env"
