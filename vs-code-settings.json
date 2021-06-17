@@ -17,5 +17,9 @@
     "files.autoSaveDelay": 100,
     "java.configuration.runtimes": [],
     "workbench.startupEditor": "newUntitledFile",
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "redhat.telemetry.enabled": false,
+    "window.zoomLevel": 1,
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.colorTheme": "Default Light+"
 }
