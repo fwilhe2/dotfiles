@@ -21,5 +21,6 @@
     "redhat.telemetry.enabled": false,
     "window.zoomLevel": 1,
     "workbench.preferredDarkColorTheme": "Default Light+",
-    "workbench.colorTheme": "Default Light+"
+    "workbench.colorTheme": "Default Light+",
+    "git.confirmSync": false
 }
