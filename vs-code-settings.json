@@ -22,5 +22,8 @@
     "window.zoomLevel": 1,
     "workbench.preferredDarkColorTheme": "Default Light+",
     "workbench.colorTheme": "Default Light+",
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
