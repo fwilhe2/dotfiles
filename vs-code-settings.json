@@ -25,5 +25,9 @@
     "git.confirmSync": false,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
