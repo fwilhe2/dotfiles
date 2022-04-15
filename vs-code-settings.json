@@ -19,7 +19,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "python.formatting.provider": "black",
     "redhat.telemetry.enabled": false,
-    "window.zoomLevel": 1,
     "workbench.preferredDarkColorTheme": "Default Light+",
     "workbench.colorTheme": "Default Light+",
     "git.confirmSync": false,
@@ -29,5 +28,8 @@
     "go.toolsManagement.autoUpdate": true,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "cSpell.userWords": [
+        "Florian"
+    ]
 }

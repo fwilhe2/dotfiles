@@ -28,3 +28,6 @@ export VAGRANT_DEFAULT_PROVIDER=virtualbox
 # Report CPU usage for commands running longer than 5 seconds
 # cf http://nuclearsquid.com/writings/reporttime-in-zsh/
 REPORTTIME=5
+
+# direnv https://direnv.net/docs/hook.html
+eval "$(direnv hook zsh)"
