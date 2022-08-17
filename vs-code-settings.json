@@ -27,10 +27,11 @@
     },
     "go.toolsManagement.autoUpdate": true,
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "cSpell.userWords": [
         "Florian"
     ],
-    "git.autofetch": true
+    "git.autofetch": true,
+    "dotfiles.repository": "fwilhe2/devcontainer-dotfiles"
 }
