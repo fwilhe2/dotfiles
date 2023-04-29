@@ -23,7 +23,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$HOME/bin:$PATH
 
-export VAGRANT_DEFAULT_PROVIDER=virtualbox
+export VAGRANT_DEFAULT_PROVIDER=libvirt
 
 # Report CPU usage for commands running longer than 5 seconds
 # cf http://nuclearsquid.com/writings/reporttime-in-zsh/
