@@ -31,3 +31,6 @@ REPORTTIME=5
 
 # direnv https://direnv.net/docs/hook.html
 eval "$(direnv hook zsh)"
+
+# Created by `pipx` on 2023-05-07 07:31:56
+export PATH="$PATH:/home/florian/.local/bin"
