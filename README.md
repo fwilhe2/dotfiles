@@ -4,7 +4,7 @@ My Dotfiles
 
 ## Install
 
-I recommend to run [system-automation](https://github.com/fwilhe/system-automation) to install the dotfiles.
+I recommend to run [system-automation](https://github.com/fwilhe2/system-automation) to install the dotfiles.
 
 ## Without Ansible
 
