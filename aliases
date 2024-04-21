@@ -63,7 +63,7 @@ elif [ -e "/usr/bin/pacman" ] ; then # Arch Linux
     alias i='sudo pacman -S'
     alias up='sudo pacman -Syu'
     alias se='pacman -Ss'
-    alias re='sudo pacman -Rc'
+    alias re='sudo pacman -Rs'
 elif [ -e "/usr/bin/zypper" ] ; then # suse
     alias i='sudo zypper install'
     alias up='sudo zypper update'
