@@ -25,7 +25,6 @@ alias grr='git remote rm'
 alias gcl='git clone'
 
 alias o='xdg-open' # 'open' files from the commandline
-alias n='newsbeuter -r'
 alias hd='od -Ax -tx1z -v' # hexdump
 
 alias gw='./gradlew'
