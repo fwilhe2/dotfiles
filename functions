@@ -1,4 +1,9 @@
 
+# https://fosstodon.org/@vbatts/112655764822514571
+cdtmp() {
+  cd "$(mktemp -d tmp.$(date --rfc-3339=date).XXXX)" || exit
+}
+
 # shorthand for find (with its confusing syntax..)
 # Example:
 # $ f alia
