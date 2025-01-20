@@ -22,7 +22,6 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gra='git remote add'
 alias grr='git remote rm'
-alias gcl='git clone'
 
 alias o='xdg-open' # 'open' files from the commandline
 alias hd='od -Ax -tx1z -v' # hexdump

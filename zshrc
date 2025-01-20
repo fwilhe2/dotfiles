@@ -10,7 +10,7 @@ ZSH_THEME="theunraveler"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git github autojump mvn gradle command-not-found cp extract gitignore sudo themes systemadmin vagrant docker heroku rsync python pip postgres grunt docker-compose systemd httpie jsontools)
+plugins=(github autojump mvn gradle command-not-found cp extract gitignore sudo themes systemadmin docker rsync python pip postgres grunt docker-compose systemd httpie jsontools)
 
 source $ZSH/oh-my-zsh.sh
 
