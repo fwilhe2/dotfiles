@@ -82,4 +82,4 @@ if [ -f $HOME/.git-prompt.sh ]; then
 fi
 
 . "$HOME/.cargo/env"
-export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.bin:$HOME/software/fwilhe-bin:$HOME/.local/bin:$PATH"
