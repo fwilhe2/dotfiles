@@ -73,7 +73,6 @@ if [ -f $HOME/.custom-path.sh ]; then
 	. $HOME/.custom-path.sh
 fi
 
-export PATH=$HOME/bin:$PATH
 
 if [ -f $HOME/.git-prompt.sh ]; then
 	. $HOME/.git-prompt.sh
@@ -81,5 +80,7 @@ if [ -f $HOME/.git-prompt.sh ]; then
 	export PS1='\w$(__git_ps1 " (%s)")\$ '
 fi
 
+export PATH="$HOME/bin:$HOME/.bin:$HOME/software/fwilhe-bin:$HOME/.local/bin:$PATH"
+
 . "$HOME/.cargo/env"
-export PATH="$HOME/.bin:$HOME/software/fwilhe-bin:$HOME/.local/bin:$PATH"
+. "$HOME/.local/bin/env"

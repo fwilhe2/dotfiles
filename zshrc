@@ -21,7 +21,7 @@ source $ZSH/oh-my-zsh.sh
 [ -f $HOME/.functions ] && . $HOME/.functions
 [ -f $HOME/.custom-path.sh ] && . $HOME/.custom-path.sh
 
-export PATH=$HOME/bin:$PATH
+export PATH="$HOME/bin:$HOME/.bin:$HOME/software/fwilhe-bin:$HOME/.local/bin:$PATH"
 
 export VAGRANT_DEFAULT_PROVIDER=libvirt
 
@@ -32,5 +32,4 @@ REPORTTIME=5
 # direnv https://direnv.net/docs/hook.html
 eval "$(direnv hook zsh)"
 
-# Created by `pipx` on 2023-05-07 07:31:56
-export PATH="$PATH:/home/florian/.local/bin"
+. "$HOME/.local/bin/env"
