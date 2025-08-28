@@ -80,7 +80,7 @@ if [ -f $HOME/.git-prompt.sh ]; then
 	export PS1='\w$(__git_ps1 " (%s)")\$ '
 fi
 
-export PATH="$HOME/bin:$HOME/.bin:$HOME/software/fwilhe-bin:$HOME/.local/bin:$PATH"
+export PATH="$HOME/bin:$HOME/.bin:$HOME/software/fwilhe-bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
 
 . "$HOME/.cargo/env"
 . "$HOME/.local/bin/env"
