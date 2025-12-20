@@ -68,6 +68,9 @@ if [ -f $HOME/.aliases ]; then
 	. $HOME/.aliases
 fi
 
+if [ -f $HOME/.functions ]; then
+	. $HOME/.functions
+fi
 
 if [ -f $HOME/.custom-path.sh ]; then
 	. $HOME/.custom-path.sh

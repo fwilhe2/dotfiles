@@ -1,7 +1,13 @@
+cdtemp() {
+  local base slug dir
 
-# https://fosstodon.org/@vbatts/112655764822514571
-cdtmp() {
-  cd "$(mktemp -d tmp.$(date --rfc-3339=date).XXXX)" || exit
+  base="$HOME/temp"
+  [ -d "$base" ] || base="${TMPDIR:-/tmp}"
+
+  slug="${1:-tmp}"
+  dir="$(mktemp -d "$base/${slug}.XXXXXX")" || return 1
+
+  cd "$dir" || return 1
 }
 
 # shorthand for find (with its confusing syntax..)
@@ -12,11 +18,6 @@ cdtmp() {
 # ./aliases
 f() {
 	find . -iname "*${1}*" 2>/dev/null
-}
-
-# DockerEXecute - get a shell in the given container
-dex() {
-    docker exec -it $1 bash -il
 }
 
 # Wrapper for ssh-keygen with sane defaults - cf https://blog.g3rt.nl/upgrade-your-ssh-keys.html
