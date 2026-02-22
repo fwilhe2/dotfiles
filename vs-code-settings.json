@@ -33,5 +33,6 @@
         "Florian"
     ],
     "git.autofetch": true,
-    "dotfiles.repository": "fwilhe2/devcontainer-dotfiles"
+    "dotfiles.repository": "fwilhe2/devcontainer-dotfiles",
+    "update.showReleaseNotes": false
 }
