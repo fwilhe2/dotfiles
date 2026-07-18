@@ -46,10 +46,6 @@
     insteadOf = gh:
 
 
-[remote "origin"]
-    fetch = +refs/notes/*:refs/notes/*
-    push = +refs/notes/*:refs/notes/*
-
 [diff]
     noprefix = true
 [init]
