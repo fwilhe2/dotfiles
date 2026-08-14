@@ -18,6 +18,7 @@
     "java.configuration.runtimes": [],
     "workbench.startupEditor": "newUntitledFile",
     "python.formatting.provider": "black",
+    "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
     "workbench.preferredDarkColorTheme": "Light+",
     "workbench.colorTheme": "Light+",
