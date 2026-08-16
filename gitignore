@@ -3,3 +3,5 @@
 *.retry
 
 **/.claude/settings.local.json
+
+**/.serena/
