@@ -10,6 +10,8 @@ cdtemp() {
   cd "$dir" || return 1
 }
 
+cdgcl() { cd "$(gcl "$1")"; }
+
 # shorthand for find (with its confusing syntax..)
 # Example:
 # $ f alia
